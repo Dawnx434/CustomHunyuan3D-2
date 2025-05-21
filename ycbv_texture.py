@@ -8,7 +8,7 @@ from hy3dgen.texgen import Hunyuan3DPaintPipeline
 
 # 模型路径和图片路径设置
 model_path = 'tencent/Hunyuan3D-2'
-root_dir = "/mnt/homes/junxiao-ldap/Hunyuan3D-2/YCBVideo_render"
+root_dir = "/mnt/homes/junxiao-ldap/6D-Pose-Anything/tmp/YCBVideo_render"
 input_glb_dir = "/mnt/homes/junxiao-ldap/6D-Pose-Anything/tmp/YCBV_Cousin_Reference/hunyuan_single"
 output_glb_dir = "/mnt/homes/junxiao-ldap/6D-Pose-Anything/tmp/YCBV_Cousin_Reference/hunyuan_single_tex"
 os.makedirs(output_glb_dir, exist_ok=True)

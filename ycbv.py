@@ -65,7 +65,7 @@ categories = [
 ]
 
 # Find valid image groups
-root_dir = "//mnt/homes/junxiao-ldap/6D-Pose-Anything/tmp/YCBVideo_render"
+root_dir = "/mnt/homes/junxiao-ldap/6D-Pose-Anything/tmp/YCBVideo_render"
 image_groups = find_image_groups(root_dir, categories)
 
 # Output folder
